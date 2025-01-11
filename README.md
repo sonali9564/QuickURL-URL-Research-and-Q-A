@@ -34,7 +34,7 @@ With QuickURL, you can:
 
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-username/QuickURL.git
+   git clone https://github.com/Akanksha4554/QuickURL.git
    cd QuickURL
    ```  
 
