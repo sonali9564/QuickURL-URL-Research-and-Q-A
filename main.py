@@ -71,7 +71,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-with st.expander("About this app"):
+with st.expander("**About this app**"):
     st.write("""
         This app uses Google's Gemini 1.5 Flash Model to:
         - Insert and process website URLs to extract relevant content.
@@ -130,5 +130,5 @@ for i, url in enumerate(urls):
         # Display Q&A History
         st.subheader(f"Questions and Answers for URL {i + 1}:")
         for idx, qa in enumerate(st.session_state.history[url]['qa']):
-            st.write(f"Q{idx + 1}: {qa['question']}")
-            st.write(f"A{idx + 1}: {qa['answer']}")
+            st.write(f"**Q{idx + 1}**: {qa['question']}")
+            st.write(f"**A{idx + 1}**: {qa['answer']}")
